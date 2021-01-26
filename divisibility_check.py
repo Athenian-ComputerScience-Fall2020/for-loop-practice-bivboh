@@ -1,7 +1,7 @@
 # Collaborators: 
 #
-for x in range(2,51):
-    if x%3 == 0:
-        print ("x is divisible by three")
+for x in range(2, 51):
+    if x % 3 == 0:
+        print(f"{x} is divisible by three")
     else:
-        print ("x is not divisible by three")
+        print(f"{x} is not divisible by three")
